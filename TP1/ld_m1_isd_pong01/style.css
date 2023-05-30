@@ -1,0 +1,30 @@
+#canvas {
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 600px;
+    border: darkslategrey;
+    border-style: none dashed;
+    z-index:1;
+}
+
+.object {
+    position: absolute;
+    z-index:2;
+    background-color:darkslategrey;
+}
+
+.player1 {
+    background-color: tomato;
+}
+
+.player2 {
+    background-color: royalblue;
+}
+
+#score {
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
